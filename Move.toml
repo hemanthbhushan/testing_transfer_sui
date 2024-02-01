@@ -1,0 +1,8 @@
+[package]
+name = "testing_transfer_sui"
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/mainnet" }
+
+[addresses]
+testing_transfer_sui = "0x0"
